@@ -1,0 +1,17 @@
+{
+  "name": "port-solara-inside-job",
+  "version": "1.0.0",
+  "description": "Open-world crime sandbox demo with QR-code multiplayer. Three.js + Node.js WebSockets.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "online": "node server.js --online"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "three": "^0.170.0",
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}
